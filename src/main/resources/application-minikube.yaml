@@ -4,7 +4,7 @@ eureka:
       defaultZone: ${EUREKA_SERVICE_ADDRESS}
 
 spring:
-  data:
-    mongodb:
-      uri: ${ORDERDB_URL}
-      password: ${ORDERDB_PASSWORD}
+  datasource:
+    url: ${SPRING_DATASOURCE_URL}
+    username: ${SPRING_DATASOURCE_USERNAME}
+    password: ${SPRING_DATASOURCE_PASSWORD}

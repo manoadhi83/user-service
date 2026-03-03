@@ -2,7 +2,7 @@ spring:
   application:
     name: user-service
   profiles:
-    active: dev
+    active: minikube
   jpa:
     hibernate:
       ddl-auto: none
@@ -11,6 +11,6 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 server:
-  port: 8084
+  port: 9094
 
 
